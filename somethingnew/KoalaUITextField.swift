@@ -38,7 +38,7 @@ class KoalaUITextField : UITextField, UIBindable {
     }
 
     func didBind() {
-        self.addTarget(nil, action: #selector(KoalaUITextField.textChanged(_:)), for:.editingChanged)
+        self.addTarget(nil, action: #selector(textChanged(_:)), for:.editingChanged)
     }
 
     func textChanged(_ textField: KoalaUITextField){
