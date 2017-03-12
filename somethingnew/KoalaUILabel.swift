@@ -36,9 +36,4 @@ class KoalaUILabel : UILabel, UIBindable {
             }
         }
     }
-
-    func bind() {
-        let data = Binder.instance
-        data.bind(key: self.binding!, object: self)
-    }
 }

@@ -36,11 +36,6 @@ class KoalaUITableView : UITableView, UIBindable {
             self.reloadData()
         }
     }
-
-    func bind() {
-        let data = Binder.instance
-        data.bind(key: self.binding!, object: self)
-    }
 }
 
 func stringClassFromString(_ className: String) -> AnyClass! {
