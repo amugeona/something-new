@@ -13,7 +13,7 @@ class KoalaUITableView : UITableView, UIBindable {
     var bindingDataSource : String? {
         didSet {
             if let bindingDataSource = bindingDataSource {
-                let cls = stringClassFromString(bindingDataSource) as! BindableTableDataSource.Type
+                let cls = bindingDataSource.ToAnyClass() as! BindableTableDataSource.Type
                 self.preparedDataSource = cls.init(self)
             }
         }
@@ -36,16 +36,4 @@ class KoalaUITableView : UITableView, UIBindable {
             self.reloadData()
         }
     }
-}
-
-func stringClassFromString(_ className: String) -> AnyClass! {
-    
-    /// get namespace
-    let namespace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String;
-    
-    /// get 'anyClass' with classname and namespace
-    let cls: AnyClass = NSClassFromString("\(namespace).\(className)")!;
-    
-    // return AnyClass!
-    return cls;
 }

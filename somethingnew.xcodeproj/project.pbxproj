@@ -21,6 +21,7 @@
 		2B200ED71E753DE100A8E5F7 /* BindableTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B200ED61E753DE100A8E5F7 /* BindableTableDataSource.swift */; };
 		2B200ED91E75448F00A8E5F7 /* KoalaUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B200ED81E75448F00A8E5F7 /* KoalaUIViewController.swift */; };
 		2BB41A6D1E7560DA0016F1CF /* KoalaUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB41A6C1E7560DA0016F1CF /* KoalaUILabel.swift */; };
+		2BB41A711E75747D0016F1CF /* String+ToAnyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB41A701E75747D0016F1CF /* String+ToAnyClass.swift */; };
 		2BDED0661E75488800168C91 /* ViewControllerBindObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDED0651E75488800168C91 /* ViewControllerBindObject.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		2B200ED61E753DE100A8E5F7 /* BindableTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableTableDataSource.swift; sourceTree = "<group>"; };
 		2B200ED81E75448F00A8E5F7 /* KoalaUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = KoalaUIViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2BB41A6C1E7560DA0016F1CF /* KoalaUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoalaUILabel.swift; sourceTree = "<group>"; };
+		2BB41A701E75747D0016F1CF /* String+ToAnyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ToAnyClass.swift"; sourceTree = "<group>"; };
 		2BDED0651E75488800168C91 /* ViewControllerBindObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBindObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,14 @@
 			path = somethingnewTests;
 			sourceTree = "<group>";
 		};
+		2BB41A721E7574920016F1CF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BB41A701E75747D0016F1CF /* String+ToAnyClass.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
 		2BDED0681E7548F800168C91 /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +147,7 @@
 		2BDED06A1E7549C500168C91 /* KoalaKit */ = {
 			isa = PBXGroup;
 			children = (
+				2BB41A721E7574920016F1CF /* extensions */,
 				2BDED06B1E7549F400168C91 /* UIResponder */,
 				2B200ECA1E74EDE100A8E5F7 /* Binder.swift */,
 			);
@@ -265,6 +276,7 @@
 				2B200ECB1E74EDE100A8E5F7 /* Binder.swift in Sources */,
 				2B200ED91E75448F00A8E5F7 /* KoalaUIViewController.swift in Sources */,
 				2B200EAB1E74E77800A8E5F7 /* ViewController.swift in Sources */,
+				2BB41A711E75747D0016F1CF /* String+ToAnyClass.swift in Sources */,
 				2B200EC91E74E84F00A8E5F7 /* KoalaUITextField.swift in Sources */,
 				2B200ED71E753DE100A8E5F7 /* BindableTableDataSource.swift in Sources */,
 				2B200ED31E753D1900A8E5F7 /* MyTableViewDataSource.swift in Sources */,
