@@ -13,6 +13,8 @@ class ViewController: KoalaUIViewController {
     dynamic var items : [String] = []
     dynamic var hello : String?
     dynamic var hello2 : String?
+    
+    dynamic var helloLabel : String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,7 @@ class ViewController: KoalaUIViewController {
         self.hello = "Hello world"
         self.hello2 = "E2"
         self.items = ["hello", "world"]
+        self.helloLabel = "Wow label binded"
         self.items.append("World")
         
         Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { _ in
@@ -30,6 +33,7 @@ class ViewController: KoalaUIViewController {
     @IBAction func SaveBtnTouched(_ sender: Any) {
         if let msg = self.hello, msg != "" {
             self.items.append(msg)
+            self.helloLabel = msg
             self.hello = ""
         }
         if let msg = self.hello2, msg != "" {

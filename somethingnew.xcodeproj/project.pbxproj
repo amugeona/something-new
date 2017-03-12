@@ -20,6 +20,7 @@
 		2B200ED31E753D1900A8E5F7 /* MyTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B200ED21E753D1900A8E5F7 /* MyTableViewDataSource.swift */; };
 		2B200ED71E753DE100A8E5F7 /* BindableTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B200ED61E753DE100A8E5F7 /* BindableTableDataSource.swift */; };
 		2B200ED91E75448F00A8E5F7 /* KoalaUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B200ED81E75448F00A8E5F7 /* KoalaUIViewController.swift */; };
+		2BB41A6D1E7560DA0016F1CF /* KoalaUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB41A6C1E7560DA0016F1CF /* KoalaUILabel.swift */; };
 		2BDED0661E75488800168C91 /* ViewControllerBindObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDED0651E75488800168C91 /* ViewControllerBindObject.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		2B200ED21E753D1900A8E5F7 /* MyTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewDataSource.swift; sourceTree = "<group>"; };
 		2B200ED61E753DE100A8E5F7 /* BindableTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableTableDataSource.swift; sourceTree = "<group>"; };
 		2B200ED81E75448F00A8E5F7 /* KoalaUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = KoalaUIViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2BB41A6C1E7560DA0016F1CF /* KoalaUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoalaUILabel.swift; sourceTree = "<group>"; };
 		2BDED0651E75488800168C91 /* ViewControllerBindObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBindObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 		2BDED0691E75490B00168C91 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				2BB41A6C1E7560DA0016F1CF /* KoalaUILabel.swift */,
 				2B200ED61E753DE100A8E5F7 /* BindableTableDataSource.swift */,
 				2B200ECE1E75238700A8E5F7 /* KoalaUITableView.swift */,
 			);
@@ -267,6 +270,7 @@
 				2B200ED31E753D1900A8E5F7 /* MyTableViewDataSource.swift in Sources */,
 				2B200EA91E74E77800A8E5F7 /* AppDelegate.swift in Sources */,
 				2B200ECF1E75238700A8E5F7 /* KoalaUITableView.swift in Sources */,
+				2BB41A6D1E7560DA0016F1CF /* KoalaUILabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
